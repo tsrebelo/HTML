@@ -13,6 +13,25 @@
             background: black;
             color: white;
             text-align: center;
+            padding: 10px;
+        }
+        #menu a:hover {
+            background: red;
+        }
+        .blue {
+            color: blue;
+        }
+        #links a {
+            margin: 20px;
+        }
+        #links a.red {
+            color: red;
+        }
+        #links a.green {
+            color: green;
+        }
+        #link a.pink {
+            color: pink;
         }
     </style>
 </head>
@@ -35,16 +54,16 @@
         <p>O meu paragrafo, bla bla bla.</p>
         <p>Mais um paragrafo, etc etc...</p>
         <img src = "imagem.png" alt = "Imagem" width = "300"/>
+        <p>Mais texto, bla bla bla</p>
     </div>
     <!-- 
         imagem com 3 parâmetros:
         img = image, src = source, alt = alternate, width = largura -->
-    <div>
-        <a href = "https://www.google.com" title = "Google" target = "_blank">clica aqui</a>
-        <!-- 
-        a = ancora, href = pagina a abrir, target blank = novo separador
-        -->
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/F46wRSgWhrY?si=wm3HoK5hkEg6QgNU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <div id = "links">
+        <a class = "green" href = "https://www.google.com" title = "Google" target = "_blank">link google</a>
+        <a class = "red" href = "https://www.youtube.com" title = "Youtube" target = "_blank">link youtube</a>
+        <a class = "pink" href = "https://www.facebook.com" title = "Facebook" target = "_blank">link facebook</a>
+       <!-- a = ancora, href = pagina a abrir, target blank = novo separador -->
     </div>
 </body>
 
