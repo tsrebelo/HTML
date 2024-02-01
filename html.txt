@@ -1,0 +1,33 @@
+            GRELHAS RESPONSIVE  --> adapta-se ao dispositivo a ser utilizado
+                    ||
+                    \/
+
+        criar a vossa personalizada
+
+                    OU
+
+        procurar frameworks existentes --> framework, porque já tem vários cenários previstos/programados
+                    ||
+                    \/
+                BOOTSTRAP
+            
+
+
+              WIDTH
+ <--------------1024------------->
+ ^                               ^
+ |                               |
+ |                               |
+ |                               |
+ |                               |
+ |                               |  HEIGHT
+ X                               X RECATIVE
+ |                               |
+ |                               |
+ |                               |
+ |                               |
+ |                               |
+ |                               |
+ v                               v
+ <--------------1024------------->
+ 
