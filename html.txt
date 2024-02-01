@@ -45,3 +45,6 @@
  DIV OU QUALQUER ELEMENTO:
  - id (único)
  - class (pode existir várias)
+
+ ID - utilizado para chamar elementos;
+ CLASS - utilizada para estilar (CSS) elementos.
