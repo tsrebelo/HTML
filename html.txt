@@ -31,3 +31,12 @@
  v                               v
  <--------------1024------------->
  
+
+
+ 2 TIPOS DE ESPAÇAMENTO:
+ - Margin (exterior, sempre para fora)
+ - Padding (interior, sempre para dentro)
+
+ TIPOS DE BLOCOS (BLOCK):
+ - div
+ - span
