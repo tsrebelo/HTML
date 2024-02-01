@@ -40,3 +40,8 @@
  TIPOS DE BLOCOS (BLOCK):
  - div
  - span
+
+
+ DIV OU QUALQUER ELEMENTO:
+ - id (único)
+ - class (pode existir várias)
