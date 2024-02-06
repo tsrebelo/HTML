@@ -1,0 +1,8 @@
+#main {
+    width: 960px;
+    padding: 10px 20px;
+    margin: 0 auto;
+    /* margin = margem, 0 auto = ao centro */
+    background: black;
+    color: white;
+}
