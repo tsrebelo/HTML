@@ -48,3 +48,12 @@
 
  ID - utilizado para chamar elementos;
  CLASS - utilizada para estilar (CSS) elementos.
+
+
+
+
+
+ DISPLAY - forma como um elemento se comporta no layout.
+ - inline
+ - inline-BLOCK
+ - BLOCK
