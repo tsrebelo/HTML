@@ -8,10 +8,12 @@
 }
 
 #main .row {
-    padding: 15px;
-    border-bottom: 3px solid red; /*dashed, dotted, solid*/
-    margin-bottom: 30px;
+    width: 100%;
+}
 
+#main .col50 {
+    display: inline-block;
+    width: 49%;
 }
 
 #main ul {
