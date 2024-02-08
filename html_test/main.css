@@ -28,6 +28,7 @@
 #main .col40 ul li {
     background: black;
     color: palevioletred;
+    border: 1px solid white;
     text-align: center;
 }
 
