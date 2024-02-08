@@ -25,6 +25,12 @@
     width: 40%;
 }
 
+.col40 ul li {
+    background: black;
+    color: palevioletred;
+    text-align: center;
+}
+
 .col55 {
     display: inline-block;
     width: 55%;
