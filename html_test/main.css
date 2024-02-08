@@ -12,6 +12,11 @@
     padding: 10px;
 }
 
+#menu a:hover {
+    background: darkred;
+    color: lightcoral;
+}
+
 #main .logo img {
    width: 250px; 
 }
@@ -26,8 +31,8 @@
 }
 
 #main .col40 ul li {
-    background: black;
-    color: palevioletred;
+    background: blue;
+    color: paleturquoise;
     border: 1px solid white;
     text-align: center;
 }
