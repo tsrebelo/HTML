@@ -1,0 +1,45 @@
+#menu {
+    width: 100%;
+    margin: 0;
+}
+
+#menu a {
+    display: inline-block;
+    width: 20%;
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.logo img {
+   width: 250px; 
+}
+
+.row {
+    width: 100%;
+}
+
+.col40 {
+    display: inline-block;
+    width: 40%;
+}
+
+.col55 {
+    display: inline-block;
+    width: 55%;
+}
+
+.col33 {
+    display: inline-block;
+    width: 33%;
+}
+
+.col33 img {
+    width: 500px;
+}
+
+.col50 {
+    display: inline-block;
+    width: 49%;
+}
