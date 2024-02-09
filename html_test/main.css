@@ -57,6 +57,7 @@
 
 #main .col33 img {
     width: 75%;
+    display: block;
 }
 
 #main .col50 {
