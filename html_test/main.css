@@ -9,7 +9,7 @@
     background: black;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 0.5%;
 }
 
 #menu a:hover {
@@ -17,8 +17,12 @@
     color: lightcoral;
 }
 
+#main {
+    width: 100%;
+}
+
 #main .logo img {
-   width: 250px; 
+   width: 13%; 
 }
 
 #main .row {
@@ -32,7 +36,7 @@
 
 #main .col40 ul li {
     background: blue;
-    color: paleturquoise;
+    color: white;
     border: 1px solid white;
     text-align: center;
     margin-left: 15%;
