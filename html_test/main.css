@@ -48,6 +48,7 @@
 #main .col55 {
     display: inline-block;
     width: 55%;
+    vertical-align: top;
 }
 
 #main .col33 {
@@ -63,4 +64,8 @@
 #main .col50 {
     display: inline-block;
     width: 49%;
+}
+
+#main .tright{
+    text-align: right;
 }
