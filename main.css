@@ -1,0 +1,13 @@
+#main {
+    width: 1080px;
+}
+
+.col-left {
+    display: inline-block;
+    width: 30%;
+}
+
+.col-right {
+    display: inline-block;
+    width: 68%;
+}
