@@ -57,3 +57,8 @@
  - inline (na mesma linha e só ocupa o espaço necessário na linha, permite váriios lado a lado)//width auto//
  - inline-BLOCK (suporta vários elementos na mesma linha permitindo atribuir largura a cada um deles)//é um layout de várias colunas na mesma linha//
  - BLOCK (ocupa a largura toda disponível e não aceita mais nenhum elemento ao seu lado)//width 100%//
+
+
+--FORMULÁRIO--
+GET - a informação vai através do url (não é muito seguro)
+POST - a informação vai através do server(seguro)
