@@ -1,0 +1,55 @@
+<html>
+<head>
+    <title>Formulário de Registo</title>
+    <link rel="stylesheet" href="registo.css">
+</head>
+<body>
+    <div id="main" class="registo">
+        <h1 class="titulo">Formulário de Registo</h1>
+        <form action="registo.php" name="registo" method="GET">
+            <div class="row">
+                <div class="col2">
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name" placeholder="O seu nome...">
+                </div>
+                <div class="col2"> 
+                    <label for="username">Username:</label>
+                    <input type="text" name="username" id="username" placeholder="O seu username...">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col2">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="O seu email...">
+                </div>
+                <div class="col2">
+                    <label for="password">Password: </label>
+                    <input type="password" name="password" id="password" placeholder="A sua password...">
+                </div>
+            </div>
+            <div class="row">
+                <label for="morada">Morada completa:</label>
+                <textarea name="morada" id="morada"></textarea>
+            </div>
+            <div class="row">
+                <div class="col2">
+                    <label for="nascimento">Data de nascimento:</label>
+                    <input type="date" name="nascimento" id="nascimento">
+                </div>
+                <div class="col2">
+                    <label for="sexo">Sexo:</label>
+                    <select name="sexo" id="sexo">
+                    <option>escolha...</option>
+                    <option name="masc">Masculino</option>
+                    <option name="fem">Feminino</option>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col3">
+                        
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
