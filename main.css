@@ -1,0 +1,40 @@
+#main {
+    width: 1080px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.col1 {
+    display: inline-block;
+    width: 95%;
+    padding: 1% 2%;
+}
+
+.col2 {
+    display: inline-block;
+    width: 45%;
+    padding: 1% 2%;
+}
+
+.col3 {
+    display: inline-block;
+    width: 33%;
+}
+
+.col4 {
+    display: inline-block;
+    width: 24%;
+}
+
+form label, form input, form textarea {
+    display: block;
+    width: 100%;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.form input+label {
+    display: inline;
+}
