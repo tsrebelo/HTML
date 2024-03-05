@@ -1,0 +1,44 @@
+#main {
+    width: 1080px;
+    margin: o auto;
+    padding: 0;
+}
+.col1 {
+    display: inline-block;
+    width: 95%;
+    padding: 1% 2%;
+}
+.col2 {
+    display: inline-block;
+    width: 45%;
+    padding: 1% 2%;
+}
+
+
+.col3 {
+    display: inline-block;
+    width: 31%;
+    padding: 1%;
+}
+.col4 {
+    display: inline-block;
+    width: 24%;
+}
+form label, form input, form textarea, form select {
+    display: block;
+    width: 100%;
+}
+form input[type="checkbox"],
+form input[type="radio"] {
+    display: inline;
+    width: auto;
+}
+form input+label {
+    display: inline;
+    width: auto;
+}
+.border-form {
+    border: 1px solid green;
+    background: green;
+    color: white;
+}
