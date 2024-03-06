@@ -1,0 +1,73 @@
+#main {
+    width: 1080px;
+    margin: o auto;
+    padding: 0;
+}
+.titulo {
+    text-align: center;
+}
+.col1 {
+    display: inline-block;
+    width: 95%;
+    padding: 1% 2%;
+}
+.col2 {
+    display: inline-block;
+    width: 45%;
+    padding: 1% 2%;
+}
+
+
+.col3 {
+    display: inline-block;
+    width: 31%;
+    padding: 1%;
+}
+.col4 {
+    display: inline-block;
+    width: 24%;
+}
+form label, form input, form textarea, form select {
+    display: block;
+    width: 100%;
+}
+form input[type="checkbox"],
+form input[type="radio"] {
+    display: inline;
+    width: auto;
+}
+form input+label {
+    display: inline;
+    width: auto;
+}
+.border-form {
+    border: 1px solid light
+    blue;
+    background:  rgb(182, 173, 221);
+    color: darkblue;
+}
+#loader {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -175px;
+    margin-top: -100px;
+    line-height: 200px;
+    width: 350px;
+    height: 200px;
+    text-align: center;
+    vertical-align: middle;
+    background: lightgray;
+    border: 1px solid black;
+    font-size: 18px;
+    font-weight: bold;
+}
+#loader .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
