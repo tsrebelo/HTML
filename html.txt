@@ -62,3 +62,7 @@
 --FORMULÁRIO--
 GET - a informação vai através do url (não é muito seguro)
 POST - a informação vai através do server(seguro)
+
+--CALLBACK--
+função que é chamada na conclusão de outra função.
+exemplo: fadeIn()
