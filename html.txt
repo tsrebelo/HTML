@@ -73,4 +73,4 @@ exemplo: fadeIn()
 
 ORDEM NO CSS:
 dl --> dt --> dd
-Definition List --> Definition Title --> Definition D
+Definition List --> Definition Title --> Definition Description
