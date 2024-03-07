@@ -66,3 +66,6 @@ POST - a informação vai através do server(seguro)
 --CALLBACK--
 função que é chamada na conclusão de outra função.
 exemplo: fadeIn()
+
+
+<br/> --> quebra de linha
