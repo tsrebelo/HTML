@@ -3,9 +3,18 @@ dl {
     border-bottom: 1px solid darkgray;
 }
 dl dt {
+    position: relative;
     font-size: 14px;
     font-weight: bold;
     line-height: 24px;
+}
+dl dt:after {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 5px;
+    content: "+";
+    font-size: 18px;
 }
 dl dd {
     padding: 10px 0;

@@ -69,3 +69,8 @@ exemplo: fadeIn()
 
 
 <br/> --> quebra de linha
+
+
+ORDEM NO CSS:
+dl --> dt --> dd
+Definition List --> Definition Title --> Definition D
