@@ -10,13 +10,9 @@ $(document).ready(function(){
         var thisQuestion = $(this);
         //abrir pergunta selecionada
         if(thisQuestion.is(".open")){ //se já estiver aberta faz:
-            thisQuestion.find("dd").slideUp(function(){
-                thisQuestion.closest("dl").removeClass("open");
-            });
+            thisQuestion.removeClass("open").find("dd").slideUp();
         } else{
-            thisQuestion.find("dd").slideDown(function(){
-                thisQuestion.closest("dl").addClass("open");
-            });
+            thisQuestion.addClass("open").find("dd").slideDown();
         }
         //fechar outras perguntas abertas
         if(thisQuestion.siblings().is(".open")){
