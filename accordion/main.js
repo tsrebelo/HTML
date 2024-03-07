@@ -11,6 +11,12 @@ $(document).ready(function(){
         $(this).find("dd").slideDown(function(){
             $(this).closest("dl").addClass("open");
         });
-        
+        //fechar outras perguntas abertas
+        if($(this).sliblings().is(".open")){
+            console.log("sim");
+            $(this).sliblings(".open").find("dd").slideUp(function(){
+                $(this).closest(".open").removeClass("open");
+            });
+        };
     });
 });
