@@ -17,6 +17,6 @@ $(document).ready(function(){
             $(this).siblings(".open").find("dd").slideUp(function(){
                 $(this).closest(".open").removeClass("open");
             });
-        };
+        }
     });
 });
