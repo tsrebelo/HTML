@@ -12,9 +12,9 @@ $(document).ready(function(){
             $(this).closest("dl").addClass("open");
         });
         //fechar outras perguntas abertas
-        if($(this).sliblings().is(".open")){
+        if($(this).siblings().is(".open")){
             console.log("sim");
-            $(this).sliblings(".open").find("dd").slideUp(function(){
+            $(this).siblings(".open").find("dd").slideUp(function(){
                 $(this).closest(".open").removeClass("open");
             });
         };
