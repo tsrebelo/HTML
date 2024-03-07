@@ -1,1 +1,9 @@
-    
+dl {
+    margin-bottom: 30px;
+    border-bottom: 1px solid darkgray;
+}
+dl dt {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 24px;
+}
