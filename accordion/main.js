@@ -12,11 +12,14 @@ $(document).ready(function(){
         if(thisQuestion.is(".open")){ //se já estiver aberta faz:
             thisQuestion.removeClass("open").find("dd").slideUp();
         } else{
-            thisQuestion.addClass("open").find("dd").slideDown();
+            thisQuestion.addClass("open").find("dd").slideDown(function(){
+                if(thisQuestion.siblings(".open")){
+                    thisQuestion.siblings(".open").removeClass("open");
+                }
+            });
         }
         //fechar outras perguntas abertas
         if(thisQuestion.siblings().is(".open")){
-            console.log("sim");
             thisQuestion.siblings(".open").find("dd").slideUp(function(){
                 thisQuestion.closest(".open").removeClass("open");
             });
