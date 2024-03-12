@@ -45,7 +45,7 @@ $(document).ready(function(){
         $("#loader").fadeIn(5000, function(){ //milisegundos do fadeÎn
             console.log("fadeIn completo");
             $(this).find("span").text("Registo efetuado.");
-            $(this).append("<p>"+frase+"<p>");
+            $(this).find(".box").append("<p>"+frase+"<p>");
             //funcionamento do botao fechar
             $(this).find('.close').on("click", function(){
                 $("#loader").fadeOut(500);

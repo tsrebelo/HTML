@@ -48,6 +48,14 @@ form input+label {
 }
 #loader {
     position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+}
+#loader .box {
+    position: fixed;
     top: 50%;
     left: 50%;
     margin-left: -175px;
@@ -56,8 +64,8 @@ form input+label {
     height: 200px;
     text-align: center;
     vertical-align: middle;
-    background: lightgray;
-    border: 1px solid black;
+    background: whitesmoke;
+    border: 2px solid blue;
     font-size: 18px;
     font-weight: bold;
 }
