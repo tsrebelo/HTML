@@ -32,12 +32,18 @@ $(document).ready(function(){
     $("form").on("submit", function(event){
         //log que o evento aconteceu
         console.log("submit");
+        //gravar valores do form em vars
+        var name = $("input#name").val();
+        var username = $("input#username").val();
+        var email = $("input#email").val();
+        var birthday = $("input#nascimento").val();
+        console.log(name);
         //prevenir sçso default = que a pagina seja recarregada
         event.preventDefault();
         //mostrar o "Loading..."
         $("#loader").fadeIn(5000, function(){ //milisegundos do fadeÎn
             console.log("fadeIn completo");
-            $(this).find("span").text("Registo evetuado.");
+            $(this).find("span").text("Registo efetuado.");
             //funcionamento do botao fechar
             $(this).find('.close').on("click", function(){
                 $("#loader").fadeOut(500);
