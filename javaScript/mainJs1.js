@@ -37,7 +37,6 @@ $(document).ready(function(){
         var username = $("input#username").val();
         var email = $("input#email").val();
         var birthday = $("input#nascimento").val();
-        console.log(name);
         var frase = "Olá "+name+", o seu user name "+username+" com data de nascimento "+birthday+", foi registado para o email "+email+"!!!";
         console.log(frase);
         //prevenir sçso default = que a pagina seja recarregada
