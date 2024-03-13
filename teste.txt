@@ -1,0 +1,10 @@
+LOGO                    BARRA DE PESQUISA
+
+MENU1                    IMG
+MENU2                    H2
+SUB                       P
+SUB                
+MENU3                   IMG     IMG     IMG
+MENU4                   link    link    link
+
+COPYRIGHT                               link
