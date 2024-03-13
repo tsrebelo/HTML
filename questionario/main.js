@@ -4,6 +4,7 @@ $(document).ready(function(){
         event.preventDefault();
         //guarda array com respostas selecionadas
         var answers = $("input:checked");
+        console.log(answers);
         var matrix = {
             "quest1": "bmw",
             "quest2": "francesinha",
@@ -13,4 +14,4 @@ $(document).ready(function(){
             "quest6": "honda"
         };
     });
-});
+});     
