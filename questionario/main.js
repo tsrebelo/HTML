@@ -14,10 +14,16 @@ $(document).ready(function(){
             "quest6": "honda"
         };
         answers.each(function(){
-            var thisB = $(this);
-            var name = thisB[0]["name"];
-            var id = thisV[0]["id"];
-            console.log(id);
+            var thisV = $(this);
+            var quest = thisV[0]["name"];
+            var answers = thisV[0]["id"];
+            console.log(name +" - "+ id);
+            //validar se as respostas correspondem a matrix
+            if(matrix[quest] == answers){
+                console.log("CORRETO");
+            } else {
+                console.log("ERRADO");
+            }
         });
     });
 });     
