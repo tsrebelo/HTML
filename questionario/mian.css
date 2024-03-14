@@ -1,6 +1,6 @@
-#main {
-    width: 100%;
+.wrong + label {
+    color: red;
 }
-.titulo {
-    text-align: center;
+.correct + label{
+    color: green;
 }
