@@ -53,3 +53,7 @@ p {
 .link {
     text-align: right;
 }
+.image img {
+    display: block;
+    width: 68%;
+}
