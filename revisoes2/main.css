@@ -50,3 +50,6 @@ p {
     width: 68%;
     display: block;
 }   
+.link {
+    text-align: right;
+}
