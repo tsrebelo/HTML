@@ -13,5 +13,11 @@ $(document).ready(function(){
             "quest5": "agua",
             "quest6": "honda"
         };
+        answers.each(function(){
+            var thisB = $(this);
+            var name = thisB[0]["name"];
+            var id = thisV[0]["id"];
+            console.log(id);
+        });
     });
 });     
