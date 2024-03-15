@@ -52,7 +52,7 @@ p {
     width: 32%;
 }
 .col3 img {
-    width: 68%;
+    width: 100%;
     display: block;
 }   
 .link {
@@ -60,5 +60,5 @@ p {
 }
 .image img {
     display: block;
-    width: 68%;
+    width: 97.3%;
 }
