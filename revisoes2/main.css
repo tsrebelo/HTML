@@ -8,6 +8,10 @@
 .col2 {
     display: inline-block;
     width: 49%;
+}
+.col2_2 {
+    display: inline-block;
+    width: 49%;
     vertical-align: top;
 }
 .col2 img {
